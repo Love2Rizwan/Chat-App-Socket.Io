@@ -42,6 +42,13 @@ app.get("/", (req, res) => {
 app.use("/api/auth", authRoutes); // Authentication routes
 app.use("/api/messages", messageRoutes); // Message routes
 
+
+
+
+
+
+
+
 // Starting the server
 const server = app.listen(process.env.PORT, () =>
   console.log(`Server started on ${process.env.PORT}`)

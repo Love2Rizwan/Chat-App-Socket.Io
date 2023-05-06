@@ -87,6 +87,7 @@ const  SetAvatar= () =>{
       {isLoading ? (
         <div className="avatar-picker-container">
           <img src={loader} alt="loader" className="avatar-picker-loader" />
+        <h2>🥰Mohd❤️️ Rizwan🥰</h2>
         </div>
       ) : (
         <div className="avatar-picker-container">

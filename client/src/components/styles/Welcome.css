@@ -15,5 +15,6 @@
 }
 .container span {
   color: #800080;
+  text-transform: uppercase;
 }
 
